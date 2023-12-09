@@ -1,0 +1,78 @@
+{
+  "implemented": true,
+  "name": "pizzorea",
+  "labels": [ "custom" ],
+  "pokedex": [
+    "cobblemon.species.pizzorea.desc1",
+    "cobblemon.species.pizzorea.desc2"
+  ],
+  "height": 0.1,
+  "weight": 3,
+  "forms": [
+    { "name": "normal" }
+  ],
+  "shoulderMountable": false,
+  "primaryType": "dragon",
+  "secondaryType": "fire",
+  "baseStats": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 95,
+    "special_attack": 120,
+    "special_defence": 85,
+    "speed": 70
+  },
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 270,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 25,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseFriendship": 35,
+  "evYield": {
+    "hp": 2,
+    "special_attack": 1
+  },  
+    "moves": [
+    "egg:disable",
+    "20:crushclaw",
+    "tm:rest",
+    "tutor:honeclaws"
+  ],
+  "abilities": [
+    "toughclaws",
+    "h:serenegrace"
+  ],
+  "evolutions": [],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.4,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:slimeball",
+        "quantityRange": "1-2",
+        "percentage": 66
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "fly": {
+        "canFly": false
+      },          
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}
