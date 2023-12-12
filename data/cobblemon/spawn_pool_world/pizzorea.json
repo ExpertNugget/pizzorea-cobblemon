@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pizzorea-1",
+      "pokemon": "pizzorea",
+      "presets": [ "" ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "18-60",
+      "weight": 7.5,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [ "#minecraft:desert" ]
+      }
+    }
+  ]
+}
