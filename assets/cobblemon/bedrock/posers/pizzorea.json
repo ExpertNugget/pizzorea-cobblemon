@@ -31,12 +31,6 @@
       "poseTypes": [ "SWIM" ],
       "animations": [ "bedrock(pizzorea, water_swim)" ]
     },
-    "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [ "STAND" ],
-      "animations": [ "bedrock(pizzorea, ground_idle)" ]
-    },
     "sleeping": {
       "poseName": "sleeping",
       "transformTicks": 10,
